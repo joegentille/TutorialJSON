@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+
+	<title>Sin título 3</title>
+</head>
+
+<body>
+<h1>Tutorial JSON</h1>
+<div id="contenedor">
+
+</div>
+<br />
+<br />
+<div id="contenedor_dos">
+
+</div>
+
+<script type="text/javascript">
+
+    var diaSemana = [
+    "Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sabado",
+    "Domingo"
+    ];
+    
+    document.getElementById("contenedor").innerHTML = diaSemana[0];
+
+    var variosObjetos = [
+    {
+        "nombre":"Primer elemento",
+        "posicion":"1º"   
+    },
+    {
+        "nombre":"Segundo elemento",
+        "posicion":"2º"
+    },
+    {
+        "nombre":"Tercer elemento",
+        "posicion":"3º"
+    }
+    ];
+
+    document.getElementById("contenedor_dos").innerHTML = variosObjetos[2].posicion;
+
+</script>
+
+</body>
+</html>

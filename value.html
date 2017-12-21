@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+
+	<title>TUTORIAL JSON</title>
+</head>
+
+<body>
+<h1>Tutorial JSON</h1>
+<div id="contenedor">
+
+</div>
+joe joe joe
+<script type="text/javascript">
+
+    var varios = {
+        "nombre":"Joe Yanez",
+        "id":313,
+        "profesor":true,
+        "idCursos":[53,769,453,145],
+        "cursos":{
+            "marketing":"Mi primera aplicacion para iPhone",
+            "programacion":[
+                "Objective-C",
+                "Xcode",
+                "Json"
+            ]
+        },
+        "vacaciones":null        
+    }
+    //alert("Hola Joe")
+    alert(varios.nombre);
+    alert(varios.idCursos[1]);
+    alert(varios.cursos.marketing);
+    alert(varios.cursos.programacion[2]);
+
+</script>
+
+</body>
+</html>

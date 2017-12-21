@@ -1,0 +1,6 @@
+strings van con comillas dobles
+numeros van sin comillas
+objetos van entre llaves
+arrays van entre corchetes
+booleanos van sin comillas
+null van sin comillas
