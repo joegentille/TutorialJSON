@@ -4,3 +4,6 @@ objetos van entre llaves
 arrays van entre corchetes
 booleanos van sin comillas
 null van sin comillas
+
+Existen otros tipos de datos, luego revisar
+Gracias!
